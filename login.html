@@ -1,0 +1,98 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Exploradores - ABISMO AZUL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="cbtis-login-body">
+
+    <!-- Contenedor principal de dos columnas -->
+    <div class="cbtis-login-container">
+
+        <!-- LADO IZQUIERDO: Panel de bienvenida -->
+        <div class="cbtis-left-panel">
+            <div class="cbtis-left-content">
+
+                <div class="cbtis-illustration-box">
+                    <div class="cbtis-badge-icon">🌊🔬</div>
+                    <h2>¡BIENVENIDO A BORDO!</h2>
+                </div>
+
+                <div class="cbtis-notices-box">
+                    <h3>¡Comunicados de expedición!</h3>
+                    <p>
+                        Consulta las próximas expediciones submarinas,
+                        actualizaciones de investigación, informes científicos
+                        y avisos importantes de nuestro equipo de exploración.
+                        El océano aún guarda muchos secretos por descubrir.
+                    </p>
+                </div>
+
+                <div class="cbtis-slider-dots">
+                    <span class="cbtis-dot active"></span>
+                    <span class="cbtis-dot"></span>
+                    <span class="cbtis-dot"></span>
+                </div>
+
+            </div>
+
+            <div class="cbtis-left-footer">
+                ABISMO AZUL - Centro de Exploración Oceánica &copy; 2026<br>
+                <span>Aviso de privacidad | Términos y condiciones</span>
+            </div>
+        </div>
+
+        <!-- LADO DERECHO: Panel de acceso -->
+        <div class="cbtis-right-panel">
+            <div class="cbtis-login-wrapper">
+
+                <div class="login-back-container">
+                    <a href="index.html" class="cbtis-back-link">
+                        ← Regresar al inicio
+                    </a>
+                </div>
+
+                <div class="cbtis-logo-header">
+                    <div class="login-logo-emoji">🐙</div>
+                    <h1>ABISMO <strong>AZUL</strong></h1>
+                </div>
+
+                <form id="form-login" action="#" method="POST">
+
+                    <div class="cbtis-input-group">
+                        <label for="usuario">Identificación del investigador</label>
+                        <input type="text" id="usuario" name="usuario"
+                               placeholder="Ingresa tu código de investigador" required>
+                    </div>
+
+                    <div class="cbtis-input-group">
+                        <label for="password">Clave de acceso</label>
+                        <input type="password" id="password" name="password"
+                               placeholder="Ingresa tu clave de acceso" required>
+                    </div>
+
+                    <button type="submit" class="cbtis-btn-ingresar">
+                        INICIAR EXPEDICIÓN
+                    </button>
+
+                </form>
+
+                <div class="cbtis-login-help">
+                    <a href="#">Necesito asistencia</a> |
+                    <a href="#">¿Olvidaste tu clave?</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
